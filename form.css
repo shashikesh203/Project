@@ -1,0 +1,23 @@
+#text{
+    font-size: 40px;
+    padding-left: 220px;
+    padding-top: 60px;
+    color: aliceblue;
+    font-weight: 10000px;
+}
+#pos{
+    margin-left: 400px;
+    margin-top: 60px;
+    border: 2px solid red;
+    display: inline-block;
+    padding: 20px;
+    background-color: aquamarine;
+
+}
+#h1{
+    margin-bottom: 20px;
+}
+body{
+    background-image: url('https://i0.wp.com/www.ercotravels.com/blog/wp-content/uploads/2018/11/Munnar.jpg?fit=808%2C501&ssl=1');
+    background-size: cover;
+}

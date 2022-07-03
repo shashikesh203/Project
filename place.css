@@ -1,0 +1,131 @@
+
+.g{
+   border: 2px solid GREEN;
+   width: 1100px;
+   height: 600px;
+   box-sizing: border-box;
+   margin-left: 80px;
+   color: red;
+   text-decoration: none;
+
+}
+#india{
+   background-image: url('https://www.planetware.com/wpimages/2019/11/india-best-places-to-visit-agra.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-size: 50px;
+   box-sizing: border-box;
+   padding-left: 90px;
+   padding-top: 130px;
+}
+#dubai{
+   background-image: url('https://www.edubaivisa.in/blog/wp-content/uploads/2022/04/Best-Places-To-Visit-In-Dubai.webp');
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-size: 50px;
+   box-sizing: border-box;
+   padding-left: 90px;
+   padding-top: 130px;
+}
+#lon{
+   background-image: url('http://cdn.cnn.com/cnnnext/dam/assets/160418173456-beautiful-england-18-london-england.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-size: 50px;
+   box-sizing: border-box;
+   padding-left: 90px;
+   padding-top: 130px;
+}
+#Ame{
+   background-image: url('https://www.businessinsider.in/thumb/msid-76716084,width-700,height-525,imgsize-1073358/50-pittsburgh-pennsylvania.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-size: 50px;
+   box-sizing: border-box;
+   padding-left: 90px;
+   padding-top: 130px;
+}
+#japan{
+   background-image: url('https://www.roadaffair.com/wp-content/uploads/2018/08/mt-fuji-fall-colors-japan-shutterstock_147744140-1024x683.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-size: 50px;
+   box-sizing: border-box;
+   padding-left: 90px;
+   padding-top: 130px;
+}
+#china{
+   background-image: url('https://www.planetware.com/wpimages/2018/09/china-attractions-zhangjiajie-national-forest-park.jpg-.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-size: 50px;
+   box-sizing: border-box;
+   padding-left: 90px;
+   padding-top: 130px;
+}
+
+#pak{
+   background-image: url('https://miro.medium.com/proxy/0*X2TQNqj-sAs3r5Ly.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-size: 50px;
+   box-sizing: border-box;
+   padding-left: 90px;
+   padding-top: 130px;
+}
+#swi{
+   background-image: url('https://www.pandotrip.com/wp-content/uploads/2018/04/Aerial-view-of-Interlaken-and-Swiss-Alps-from-Harder-Kulm-View-point.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-size: 50px;
+   box-sizing: border-box;
+   padding-left: 90px;
+   padding-top: 130px;
+}
+#aus{
+   background-image: url('https://img.traveltriangle.com/blog/wp-content/uploads/2020/02/city-skyline-of-Sydney-Australia.jpg');
+   background-repeat: no-repeat;
+   background-size: cover;
+   font-size: 50px;
+   box-sizing: border-box;
+   padding-left: 90px;
+   padding-top: 130px;
+}
+
+@keyframes changecolor{
+   25%{background-color: aqua;}
+   60%{background-color: blueviolet;}
+   100%{background-color: brown;}
+}
+body{
+   animation-name: changecolor;
+   animation-duration: 10s;
+   width: 98%;
+   height: 700px;
+   animation-iteration-count: infinite;
+   animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+@keyframes changeimage{
+   25%{background-image: url('https://i0.wp.com/www.ercotravels.com/blog/wp-content/uploads/2018/11/Munnar.jpg?fit=808%2C501&ssl=1');}
+   60%{background-image: url('https://www.planetware.com/wpimages/2019/11/india-best-places-to-visit-agra.jpg');}
+   100%{background-image: url('https://www.touropia.com/gfx/d/best-places-to-visit-in-india/mysore.jpg');}
+}
+#u{
+
+   position: fixed;
+   font-size: 35px;
+   font-weight: 300;
+   color: chartreuse;
+   margin: 200px;
+}
+#fix{
+   position: fixed;
+   margin-left: 330px;
+   font-size: 20px;
+   color: rgb(58, 8, 239);
+   font-weight: 10000px;
+   font-size: 30px;
+   background-color: aliceblue;
+   display: inline;
+}
+
